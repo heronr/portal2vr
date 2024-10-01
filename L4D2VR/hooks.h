@@ -9,13 +9,13 @@ class CViewSetup;
 class CUserCmd;
 class QAngle;
 class Vector;
-class edict_t;
-class ModelRenderInfo_t;
+struct edict_t;
+struct ModelRenderInfo_t;
 struct trace_tx;
 class IMatRenderContext;
 struct vrect_t;
 struct Ray_t;
-struct VMatrix;
+class VMatrix;
 
 template <typename T>
 struct Hook {

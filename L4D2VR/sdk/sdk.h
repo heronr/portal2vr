@@ -320,7 +320,7 @@ class CViewSetup
 public:
 	inline char* STR() {
 		char errorString[512];
-		sprintf_s(errorString, 512, "X: %i (%i), Y: %i (%i)", x, m_nUnscaledX, y, m_nUnscaledY, width, m_nUnscaledWidth, height, m_nUnscaledHeight, fov, fovViewmodel);
+		sprintf_s(errorString, 512, "X: %i (%f), Y: %i (%f)", x, m_nUnscaledX, y, m_nUnscaledY);//, width, m_nUnscaledWidth, height, m_nUnscaledHeight, fov, fovViewmodel);
 		return errorString;
 	}
 

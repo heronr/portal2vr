@@ -1,3 +1,5 @@
+#pragma warning(disable:4715)
+
 #include "hooks.h"
 #include "game.h"
 #include "texture.h"

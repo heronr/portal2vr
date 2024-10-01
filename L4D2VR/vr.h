@@ -6,8 +6,8 @@
 #define MAX_STR_LEN 256
 
 class Game;
-class IDirect3DTexture9;
-class IDirect3DSurface9;
+struct IDirect3DTexture9;
+struct IDirect3DSurface9;
 class ITexture;
 
 
