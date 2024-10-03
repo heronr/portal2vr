@@ -1030,7 +1030,7 @@ QAngle& __fastcall Hooks::dEyeAngles(void* ecx, void* edx) {
 		int localIndex = m_Game->m_EngineClient->GetLocalPlayer();
 		int index = EntityIndex(ecx);
 
-		auto vrPlayer = m_Game->m_PlayersVRInfo[index];
+		auto& vrPlayer = m_Game->m_PlayersVRInfo[index];
 
 		if (m_VR->m_IsVREnabled && localIndex == index) {
 			return m_VR->GetRightControllerAbsAngleConst();
